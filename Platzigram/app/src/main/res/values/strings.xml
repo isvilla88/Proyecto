@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Platzigram</string>
+    <string name="title_activity_referencia">ReferenciaActivity</string>
+    <!-- Pantalla de login -->
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="dont_have_account">¿No tienes cuenta?,</string>
+    <string name="create_here">crea una aquí</string>
+    <!-- Fin de pantalla de login -->
+    <string name="facebook_app_id">1847594505472725</string>
+    <!--pantalla de registro-->
+    <string name="correo">Correo</string>
+    <string name="name">Nombre</string>
+    <string name="usuario">Usuario</string>
+    <string name="password_pantalla2">Contraseña</string>
+    <string name="confirmarContraseña">Confirmar contraseña</string>
+    <string name="create_account_button">Únete</string>
+    <string name="showToolbar_create_account">Crear una cuenta</string>
+    <!--fin de la pantalla de registro-->
+
+    <!-- Inicio-Intro deslizante -->
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+    <string name="Intro_IniciarSeccion">Ingresar </string>
+    <string name="NameEmpresa">Nombre de la veterinaria</string>
+    <string name="especilidad">Tipo de especialidad</string>
+    <string name="telefono_local">Telefono</string>
+    <string name="telefono_celular">Telefono Celular</string>
+    <string name="CodigoPostal">Codigo Postal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Fin de intro deslizante -->
+
+</resources>

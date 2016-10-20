@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="mx.com.platzigram.platzigram.view.RegistrodeCuentaActivity">
+
+    <include layout="@layout/actionbar_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+            <!-- Correo electronico -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:theme="@style/EditTextBlack"
+                android:layout_marginTop="@dimen/editText_Margin_createaccount">
+
+            <android.support.design.widget.TextInputEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/correo"/>
+        </android.support.design.widget.TextInputLayout>
+            <!--Nombre -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:theme="@style/EditTextBlack"
+                android:layout_marginTop="@dimen/editText_Margin_createaccount">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/name"/>
+            </android.support.design.widget.TextInputLayout>
+            <!--Usuario-->
+            <android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:theme="@style/EditTextBlack"
+                android:layout_marginTop="@dimen/editText_Margin_createaccount">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/usuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/usuario"/>
+            </android.support.design.widget.TextInputLayout>
+            <!--Contraseña-->
+            <android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:theme="@style/EditTextBlack"
+                android:layout_marginTop="@dimen/editText_Margin_createaccount">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/Contraseña"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="@string/password_pantalla2"/>
+            </android.support.design.widget.TextInputLayout>
+            <!-- Confirmar contraseña -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:theme="@style/EditTextBlack"
+                android:layout_marginTop="@dimen/editText_Margin_createaccount">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ConfirmarContraseña"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="@string/confirmarContraseña"/>
+            </android.support.design.widget.TextInputLayout>
+            <!-- Boton de unete-->
+            <Button
+                android:id="@+id/joinUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/create_account_button"
+                android:theme="@style/BotonOscuro"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
